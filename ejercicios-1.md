@@ -7,6 +7,6 @@ El servidor que he elegido es el siguiente: https://www.pccomponentes.com/hp-pro
 
 El precio sin IVA de este servidor es de **833,88€**.  
 Para amortizarlo, lo que debemos hacer es dividir el total del precio del servidor entre el número de años que se pretende ser usado.  
-En este caso, para la amortización en 4 años, debemos dividir $833,88/4 = 208,47€$. Este será el valor de la amortización para 4 años.
+En este caso, para la amortización en 4 años, debemos dividir **833,88/4 = 208,47€**. Este será el valor de la amortización para 4 años.
 
-Por otro lado, si realizamos esto mismo para una amortización en 7 años, el resultado será $833,88/7 = 119,1257€$
+Por otro lado, si realizamos esto mismo para una amortización en 7 años, el resultado será **833,88/7 = 119,1257€**
