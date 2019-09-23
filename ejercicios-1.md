@@ -17,6 +17,10 @@ Por otro lado, si realizamos esto mismo para una amortización en 7 años, el re
 
 El modelo de mi procesador es un *Intel Core i5-8250U*. Si ejecutamos la orden "egrep '^flags.\*(vmx|svm)' /proc/cpuinfo", vemos cómo ciertamente, este procesador sí que tiene soporte para virtualización a nivel de hardware, como podemos observar en la siguiente captura de pantalla.
 
-![](./capturas/cpuinfo)
+![](./capturas/cpuinfo.png)
 
 Si el procesador no tuviera esta funcionalidad, entonces el resultado de ejecutar esta orden no nos mostraría ningún texto.
+
+Esta misma orden la he usado en una Raspberry Pi 3 y el resultado que he obtenido es que esta no posee soporte hardware para la virtualización. Es decir, al ejecutar la orden, no se muestra nada por pantalla, como podemos observar en la siguiente captura de pantalla.
+
+![](./capturas/cpuinfo_raspi.png)
