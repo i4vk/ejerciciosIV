@@ -10,3 +10,13 @@ Para amortizarlo, lo que debemos hacer es dividir el total del precio del servid
 En este caso, para la amortización en 4 años, debemos dividir **833,88/4 = 208,47€**. Este será el valor de la amortización para 4 años.
 
 Por otro lado, si realizamos esto mismo para una amortización en 7 años, el resultado será **833,88/7 = 119,1257€**
+
+
+## Ejercicio 3
+**En general, cualquier ordenador con menos de 5 o 6 años tendrá estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden? Si usas una máquina virtual, ¿qué resultado da? ¿Y en una Raspberry Pi o, si tienes acceso, el procesador del móvil?**
+
+El modelo de mi procesador es un *Intel Core i5-8250U*. Si ejecutamos la orden "egrep '^flags.\*(vmx|svm)' /proc/cpuinfo", vemos cómo ciertamente, este procesador sí que tiene soporte para virtualización a nivel de hardware, como podemos observar en la siguiente captura de pantalla.
+
+![](./capturas/cpuinfo)
+
+Si el procesador no tuviera esta funcionalidad, entonces el resultado de ejecutar esta orden no nos mostraría ningún texto.
