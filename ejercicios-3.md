@@ -7,4 +7,4 @@ Tras descargar el test de python y comprobar su funcionamiento, vemos cómo en p
 
 El resultado obtenido en las dos ejecuciones es el siguiente:
 
-![]("./capturas/tests_prueba.png")
+![](./capturas/tests_prueba.png)
